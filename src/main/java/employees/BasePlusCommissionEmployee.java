@@ -1,11 +1,11 @@
-package labtwo;
+package employees;
 
 public class BasePlusCommissionEmployee extends CommissionedEmployee {
     private double salary;
 
-    public BasePlusCommissionEmployee(String firstName, String lastName, String socialSecurityNumber,
+    public BasePlusCommissionEmployee(String firstName, String lastName, String socialSecurityNumber, HireDate hireDate,
                                       double grossSales, double commissionRate, double salary){
-        super(firstName, lastName, socialSecurityNumber, grossSales, commissionRate);
+        super(firstName, lastName, socialSecurityNumber, hireDate, grossSales, commissionRate);
         this.salary = salary;
 
 

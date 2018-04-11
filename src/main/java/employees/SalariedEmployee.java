@@ -1,10 +1,10 @@
-package labtwo;
+package employees;
 
 public class SalariedEmployee extends Employee{
     private double weeklySalary;
 
-    public SalariedEmployee(String firstName, String lastName, String SocialSecurityNumber, double weeklySalary){
-        super(firstName, lastName, SocialSecurityNumber);
+    public SalariedEmployee(String firstName, String lastName, String SocialSecurityNumber, double weeklySalary, HireDate hireDate){
+        super(firstName, lastName, SocialSecurityNumber, hireDate);
         this.weeklySalary = weeklySalary;
     }
 

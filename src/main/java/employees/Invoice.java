@@ -1,4 +1,4 @@
-package labtwo;
+package employees;
 
 public class Invoice implements IPayable{
     private String partNumber;

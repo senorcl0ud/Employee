@@ -1,4 +1,4 @@
-package labtwo;
+package employees;
 
 public class CommissionedEmployee extends Employee{
 
@@ -8,8 +8,8 @@ public class CommissionedEmployee extends Employee{
 
 
     public CommissionedEmployee(String firstName, String lastName,
-                String socialSecurityNumber, double grossSales, double commissionRate){
-            super(firstName, lastName, socialSecurityNumber);
+                String socialSecurityNumber, HireDate hireDate, double grossSales, double commissionRate){
+            super(firstName, lastName, socialSecurityNumber, hireDate);
             this.grossSales = grossSales;
             this.commissionRate = commissionRate;
         }
